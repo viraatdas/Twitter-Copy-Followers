@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
+*** viraatdas, repo_name, therealviraat, viraat.laldas@gmail.com, project_title, Copy Twitter Followers
 -->
 
 
@@ -32,23 +32,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/viraatdas/Twitter-Copy-Followers">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Copy Twitter Followers</h3>
 
   <p align="center">
-    project_description
+    Copy Twitter Followers from one account to another
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/viraatdas/Twitter-Copy-Followers"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/viraatdas/Twitter-Copy-Followers">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/viraatdas/Twitter-Copy-Followers/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/viraatdas/Twitter-Copy-Followers/issues">Request Feature</a>
   </p>
 </p>
 
@@ -89,7 +89,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+`viraatdas`, `Twitter-Copy-Followers`, `therealviraat`, `viraat.laldas@gmail.com`, `Copy Twitter Followers`, `Copy Twitter Followers`
 
 
 ### Built With
@@ -112,7 +112,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/viraatdas/Twitter-Copy-Followers.git
    ```
 2. Pipenv environment
    ```sh
@@ -177,15 +177,15 @@ README template graciously provided by [othneildrew](https://github.com/othneild
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/viraatdas/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/viraatdas/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/viraatdas/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/viraatdas/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/viraatdas/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/viraatdas/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/viraatdas/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/viraatdas/repo/issues
+[license-shield]: https://img.shields.io/github/license/viraatdas/repo.svg?style=for-the-badge
+[license-url]: https://github.com/viraatdas/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/viraatdas
