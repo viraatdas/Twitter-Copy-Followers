@@ -74,7 +74,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a way to copy Twitter followers from one account to another. Since there is a usage restriction of how many followers the Twitter API can follow in a day, people who you follow AND that follow you are prioritized when following. More about it it the `Note` section. 
+This is a way to copy Twitter followers from one account to another. Since there is a usage restriction of how many followers the Twitter API can follow in a day, people who you follow AND that follow you are prioritized when following. More about it it the [Usage](#usage) section. 
 
 ### Built With
 
