@@ -25,7 +25,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -37,11 +36,7 @@
   <h3 align="center">Copy Twitter Followers</h3>
 
   <p align="center">
-    Copy Twitter Followers from one account to another
-    <br />
-    <br />
-    <br />
-    ·
+    .
     <a href="https://github.com/viraatdas/Twitter-Copy-Followers/issues">Report Bug</a>
     ·
     <a href="https://github.com/viraatdas/Twitter-Copy-Followers/issues">Request Feature</a>
@@ -68,7 +63,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#note">Note</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -80,13 +74,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`viraatdas`, `Twitter-Copy-Followers`, `therealviraat`, `viraat.laldas@gmail.com`, `Copy Twitter Followers`, `Copy Twitter Followers`
-
+This is a way to copy Twitter followers from one account to another. Since there is a usage restriction of how many followers the Twitter API can follow in a day, people who you follow AND that follow you are prioritized when following. More about it it the `Note` section. 
 
 ### Built With
 
@@ -129,13 +117,11 @@ To get a local copy up and running follow these simple steps.
 
 `python follow.py`
 
-<!-- NOTE -->
-## Note
-
 The Twitter API only allows 400 follows every 24 hours [POST friendships/create
-](https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/post-friendships-create). There is not way of getting around this apart from just running this over multiple days if you have more than 400 followers. 
+](https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/post-friendships-create). There is not way of getting around this apart from just running this over multiple days if you have more than 400 followers. You can use a (scheduler)[https://stackoverflow.com/questions/474528/what-is-the-best-way-to-repeatedly-execute-a-function-every-x-seconds] or cronjob to automate this.
 
 For my purposes, I wanted to first follow people that follow me AND that I follow. I used an OrderedSet to add these people to be followed first. Anytime there is  an exception raised (most likely due to the number of people being followed), the list of remaining people that haven't been followed is serialized. When `follow.py` is run again, it resumes using the serialized structure to follow. 
+
 
 
 <!-- ROADMAP -->
