@@ -25,17 +25,16 @@ def follow_people(people_to_follow):
         try:
             new_account.CreateFriendship(user_id=twitter_id)
             time.sleep(0.5)
+            i+=1
         except:
-            with open(FILENAME, "wb+") as handle:
+            with open(FILENAME, "wb") as handle:
                 # edge case handling when i is 0
                 if i == 0:
                     i = 1
-                pickle.dump(people_to_follow[i-1:], handle)
+                remaining_people_to_follow = people_to_follow[i-1:]
+                pickle.dump(remaining_people_to_follow, handle)
+                return
             
-        i+=1
-  
-
-
 def create_people_to_follow():
     # api of the account you want to copy the "followers" and "following"
     old_account = twitter.Api(consumer_key=API_KEY_1,
