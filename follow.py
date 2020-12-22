@@ -24,7 +24,7 @@ def follow_people(people_to_follow):
         twitter_id = people_to_follow[i]
         try:
             new_account.CreateFriendship(user_id=twitter_id)
-            time.sleep(0.5)
+            time.sleep(0.25)
             i+=1
         except:
             with open(FILENAME, "wb") as handle:
