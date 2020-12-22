@@ -67,7 +67,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#run">Run</a></li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#note">Note</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -125,7 +125,7 @@ To get a local copy up and running follow these simple steps.
 
 
 <!-- USAGE EXAMPLES -->
-## Run
+## Usage
 
 `python follow.py`
 
