@@ -1,13 +1,13 @@
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
+*** that would make this better, please fork the Twitter-Copy-Followers and create a pull request
 *** or simply open an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 ***
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** viraatdas, repo_name, therealviraat, viraat.laldas@gmail.com, project_title, Copy Twitter Followers
+*** viraatdas, Twitter-Copy-Followers_name, therealviraat, viraat.laldas@gmail.com, project_title, Copy Twitter Followers
 -->
 
 
@@ -41,10 +41,8 @@
   <p align="center">
     Copy Twitter Followers from one account to another
     <br />
-    <a href="https://github.com/viraatdas/Twitter-Copy-Followers"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/viraatdas/Twitter-Copy-Followers">View Demo</a>
     ·
     <a href="https://github.com/viraatdas/Twitter-Copy-Followers/issues">Report Bug</a>
     ·
@@ -119,17 +117,17 @@ To get a local copy up and running follow these simple steps.
    pipenv install
    ```
 3. Environment file
-  ```sh
-  mv temp_env.py env.py
-  ```
+   ```sh
+   mv temp_env.py env.py
+   ```
 4. Access and API tokens for the old account and new account
-  - [Instructions](https://python-twitter.readthedocs.io/en/latest/getting_started.html)
+    - [Instructions](https://python-twitter.readthedocs.io/en/latest/getting_started.html)
 
 5. Update the values in `env.py` accordingly 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Run
 
 `python follow.py`
 
@@ -177,9 +175,9 @@ README template graciously provided by [othneildrew](https://github.com/othneild
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/viraatdas/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/viraatdas/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/viraatdas/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/viraatdas/Twitter-Copy-Followers.svg?style=for-the-badge
+[contributors-url]: https://github.com/viraatdas/Twitter-Copy-Followers/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/viraatdas/Twitter-Copy-Followers.svg?style=for-the-badge
 [forks-url]: https://github.com/viraatdas/Twitter-Copy-Followers/network/members
 [stars-shield]: https://img.shields.io/github/stars/viraatdas/Twitter-Copy-Followers.svg?style=for-the-badge
 [stars-url]: https://github.com/viraatdas/Twitter-Copy-Followers/stargazers
