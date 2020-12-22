@@ -36,7 +36,7 @@
   <h3 align="center">Copy Twitter Followers</h3>
 
   <p align="center">
-    .
+    ·
     <a href="https://github.com/viraatdas/Twitter-Copy-Followers/issues">Report Bug</a>
     ·
     <a href="https://github.com/viraatdas/Twitter-Copy-Followers/issues">Request Feature</a>
@@ -115,12 +115,12 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-`python follow.py`
+Run `python follow.py`
 
 The Twitter API only allows 400 follows every 24 hours [POST friendships/create
-](https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/post-friendships-create). There is not way of getting around this apart from just running this over multiple days if you have more than 400 followers. You can use a (scheduler)[https://stackoverflow.com/questions/474528/what-is-the-best-way-to-repeatedly-execute-a-function-every-x-seconds] or cronjob to automate this.
+](https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/post-friendships-create). There is not way of getting around this apart from just running this over multiple days if you have more than 400 followers. You can use a [scheduler](https://stackoverflow.com/questions/474528/what-is-the-best-way-to-repeatedly-execute-a-function-every-x-seconds) or cronjob to automate this.
 
-For my purposes, I wanted to first follow people that follow me AND that I follow. I used an OrderedSet to add these people to be followed first. Anytime there is  an exception raised (most likely due to the number of people being followed), the list of remaining people that haven't been followed is serialized. When `follow.py` is run again, it resumes using the serialized structure to follow. 
+For my purposes, I wanted to first follow people that follow me AND that I follow. I used an OrderedSet to add these people to be followed first. Anytime there is  an exception raised (most likely due to the number of people being followed), the list of remaining people that haven't been followed is serialized. When `follow.py` is run again, it resumes using the serialized structure to follow the remaining people. 
 
 
 
